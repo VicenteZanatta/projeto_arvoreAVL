@@ -122,16 +122,18 @@ void addNo(Avl* arvore)
     No* aux = arvore->raiz;
     No* node = criaNo();
     int cmp = 0;
-    cmpPalavras(aux->palavra, node->palavra)
 
     while(aux != NULL)
     {
+        cmp = cmpPalavras(aux->palavra, node->palavra);
+        
         if(cmp = 0)
             return;
-        else(cmp = 1)
+        if(cmp = 1)
             aux = aux->saEsq;
         else
             aux = aux->saDir;
     }
-
+    
+    aux = node;
 }
