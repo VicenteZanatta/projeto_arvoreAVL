@@ -37,9 +37,9 @@ Função que retornar um ponteiro para uma struct NÓ ápos realizar a alocaçã
 
 #### 3. int cmpPalavras(char palavra1[], char palavra2[])
 Retorna um inteiro de acordo com a comparação sobre a ordem alfabética das palavras passadas como argumento. A palavra1 é a palavra do nó ja existente no dicionairo, e a palavra2 é a palavra que esta sendo inserida na arvore. Os retornos seguem a seguinte lógica:
-0 = (palavra1 == palavra2)
-1 = (palavra1 > palavra2)
--1 = (palavra1 < palavra2)
+- 0 = (palavra1 == palavra2)
+- 1 = (palavra1 > palavra2)
+- -1 = (palavra1 < palavra2)
 
 
 
